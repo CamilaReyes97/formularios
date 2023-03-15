@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- ALT + SHIFT + A, P es la etiqueta de parrafo -->
+    <p> HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web.   </p>
+
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quam laboriosam necessitatibus ab accusamus voluptates! At voluptatem corporis sapiente, minus esse nulla, debitis vero, totam nesciunt consequatur mollitia odio! Recusandae.
+    <br>  <!-- Salto de linea -->
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis ipsum quo, obcaecati nulla, est alias repellendus voluptatibus porro itaque deleniti tempora impedit quam hic ea ducimus. Nulla dicta dolorem corporis?
+    </p>
+    
+
+    <!-- ALT + Z ORGANIZAR EL CODIGO -->
+
+<!-- FORMULARIOS -->
+
+<form action="">
+    <label>  Nombre:  </label> <!-- Titulo o nombre del campo -->
+    <input type="text" maxlength="10"> <!-- RECIBE TEXTO -->
+
+    <label for="numerodecedula">Numero de identificacion:</label>
+    <input type="number" id="numerodecedula" > <!-- Tipo numerico -->
+
+    <label for="">Correo:</label>
+    <input type="email"> <!-- Tipo correo, valida el @ -->
+
+    <label for="">Contraseña: </label>
+    <input type="password"> 
+
+    <label for="">Fecha</label>
+    <input type="date" min="2023-03-01" max="2023-03-31"> <!-- Fecha, dia, mes y año, ALT + SHIFT+ A -->
+    <input type="datetime-local"> <!-- FECHA Y HORA -->
+    <input type="time" > <!-- HORA -->
+    <input type="month"> 
+    <input type="week">
+
+    <input type="color"> <!-- Escoger un color -->
+    <input type="submit"> <!-- Envia los datos al action especificado -->
+    <input type="file"> <!-- Permite adjuntar archivos -->
+
+    <input type="radio" name="colores" value="Am" > Amarillo
+    <input type="radio" name="colores" value="Az"> Azul
+    <input type="radio" name="colores" value="Rj"> Rojo
+
+    <input type="checkbox" value="true">
+
+    <select name="satisfaccion" id="satisfaccion">
+        <option value="" >Seleccione una opcion</option>
+        <option value="Bueno">Bueno</option>
+        <option value="Regular">Regular</option>
+        <option value="Malo">Malo</option>
+    </select>
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+
+<button>Enviar</button>
+</form>
+
+
+</body>
+</html>
